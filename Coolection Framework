@@ -9,4 +9,24 @@ public class Main {
         System.out.println(arrayList.get(0));//inside para. index value
         System.out.println(arrayList.contains(5));
     }
-}
+}import java.util.ArrayList;
+import java.util.List;
+
+public class Main {
+
+    public static void main(String[] args)
+    {
+         ArrayList <Integer> List = new ArrayList(11);
+         List.add(2);
+        List.add(3);
+        List.add(5);
+        List.add(7);
+        List.add(9);
+        List.add(11);
+        System.out.println(List);
+        System.out.println(List.size());
+        List.remove(2);
+        System.out.println(List.size());
+        }
+Adding and Removing element
+
